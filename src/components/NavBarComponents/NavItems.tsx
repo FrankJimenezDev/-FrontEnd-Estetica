@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ButtonForDropDown } from "./ButtonForDropDown"
 import { DropdownMenu } from "./DropdownMenu"
+import { NavLink } from "react-router-dom";
 
 const dropDownMenuItems = [
     {
@@ -16,9 +17,9 @@ const dropDownMenuItems = [
 
 const navBarItems = [
     { Title: "Inicio", path: "/" },
-    { Title: "Sobre Nosotros", path: "/" },
-    { Title: "Catalogo", path: "/" },
-    { Title: "Agenda", path: "/" }
+    { Title: "Sobre Nosotros", path: "about" },
+    { Title: "Catalogo", path: "catalogo" },
+    { Title: "Agenda", path: "agenda" }
 ];
 
 export const NavItems: React.FC<{ open: boolean }> = ({ open }) => {
@@ -34,13 +35,13 @@ export const NavItems: React.FC<{ open: boolean }> = ({ open }) => {
                 } flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}
         >
             {navBarItems.map((item, idx) => (
-                <a
+                <NavLink
                     key={idx}
                     className="px-4 py-2 mt-2 text-sm font-semibold text-gold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:bg-gray-800 focus:bg-gray-700 focus:outline-none focus:shadow-outline"
-                    href="#"
+                    to={item.path}
                 >
                     {item.Title}
-                </a>
+                </NavLink>
 
             ))}
             <div
