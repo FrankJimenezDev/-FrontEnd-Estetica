@@ -42,8 +42,8 @@ export const NavItems: React.FC<{ open: boolean }> = ({ open }) => {
                 >
                     {item.Title}
                 </NavLink>
-
             ))}
+            
             <div
                 className="relative"
                 onMouseLeave={() => setMoreOpen(false)}
