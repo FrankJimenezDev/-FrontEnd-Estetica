@@ -1,5 +1,8 @@
+import { HomePageComponent } from "../../components/HomePageComponent"
+
+
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <HomePageComponent />
   )
 }
