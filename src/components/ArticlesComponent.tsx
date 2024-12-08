@@ -2,6 +2,7 @@ import image1 from '../assets/esteticaTest1.jpg';
 import image2 from '../assets/esteticaTest2.jpg';
 import { Article } from '../interfaces/Article.interface';
 import { Articles } from './ArticleComponents/Articles';
+import { HeaderArticles } from './ArticleComponents/HeaderArticles';
 
 const articles: Article[] = [
   {
@@ -16,16 +17,17 @@ const articles: Article[] = [
   }
 ];
 
+const InfoHeaderArticles = {
+  title: 'Bible Chat Features',
+  description: 'Download the Bible Chat to explore features that will make your experience memorable.'
+}
+
 export const ArticlesComponent = () => {
   return (
     <section className="bg-white text-gray-900 container mx-auto py-16 px-4 md:px-16">
-      <header className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Bible Chat Features</h2>
-        <p className="text-lg text-gray-600">
-          Download the Bible Chat to explore features that will make your experience memorable.
-        </p>
-      </header>
-
+      <HeaderArticles
+        title={InfoHeaderArticles.title}
+        description={InfoHeaderArticles.description} />
       <Articles articles={articles} />
     </section>
   );
