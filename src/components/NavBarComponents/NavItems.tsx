@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { ButtonForDropDown } from "./ButtonForDropDown"
 import { DropdownMenu } from "./DropdownMenu"
 import { NavLink } from "react-router-dom";
+import { Item } from "../../interfaces/DropDownMenu.interfaces";
 
-const dropDownMenuItems = [
+const dropDownMenuItems : Item[] = [
     {
         title: "Redes Sociales",
         description: "Siguenos para estar al tanto de todo lo que ofrecemos",
