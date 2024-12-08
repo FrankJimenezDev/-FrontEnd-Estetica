@@ -1,5 +1,5 @@
 import React from "react"
-import { ListMenu } from "../interfaces/DropDownMenu.interfaces"
+import { ListMenu } from "../../interfaces/DropDownMenu.interfaces"
 
 export const DropdownMenu : React.FC<ListMenu> = ({items}) => {
     return (
