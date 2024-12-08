@@ -27,7 +27,7 @@ export const ExpandivCards = () => {
     ];
 
     return (
-        <div className="flex justify-center items-center h-screen overflow-hidden bg-gray-50">
+        <div className="bg-white flex justify-center items-center h-screen overflow-hidden bg-gray-50">
             <div className="flex w-[90vw] max-w-screen-xl">
                 {panels.map((panel, index) => (
                     <div
