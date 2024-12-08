@@ -1,4 +1,4 @@
-interface Item {
+export interface Item {
     title : string;
     description: string
 }
@@ -6,3 +6,4 @@ interface Item {
 export interface ListMenu {
     items: Array<Item>
 }
+
