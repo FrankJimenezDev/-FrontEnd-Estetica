@@ -10,9 +10,10 @@ export const Navbar = () => {
     }
 
     return (
-        <div className="bg-black flex flex-col max-w-screen px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div className="bg-black fixed top-0 w-full flex flex-col max-w-screen px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 z-50">
             <NavTitle open={open} handleOpen={handleOpenDropDownMenuResponsive} />
             <NavItems open={open} />
         </div>
+
     );
 };

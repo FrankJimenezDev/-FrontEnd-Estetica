@@ -9,7 +9,7 @@ export const NavTitle: React.FC<ButtonForDropDownI> = ({ open, handleOpen }) => 
         <div className="flex flex-row items-center justify-between p-4">
             <NavLink
                 to="/"
-                className="text-lg font-semibold tracking-widest text-gold uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline"
+                className="text-lg font-semibold tracking-widest text-white uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline"
             >
                 Dra Mariangela Jimenez
             </NavLink>

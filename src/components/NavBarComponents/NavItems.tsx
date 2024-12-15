@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { ButtonForDropDown } from "./ButtonForDropDown"
 import { DropdownMenu } from "./DropdownMenu"
 import { NavLink } from "react-router-dom";
-import { Item } from "../../interfaces/DropDownMenu.interfaces";
+import { DropMenuItem } from "../../interfaces/DropDownMenu.interfaces";
 
-const dropDownMenuItems : Item[] = [
+const dropDownMenuItems: DropMenuItem[] = [
     {
         title: "Redes Sociales",
         description: "Siguenos para estar al tanto de todo lo que ofrecemos",
@@ -38,13 +38,13 @@ export const NavItems: React.FC<{ open: boolean }> = ({ open }) => {
             {navBarItems.map((item, idx) => (
                 <NavLink
                     key={idx}
-                    className="px-4 py-2 mt-2 text-sm font-semibold text-gold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:bg-gray-800 focus:bg-gray-700 focus:outline-none focus:shadow-outline"
+                    className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 hover:bg-gray-800 focus:bg-gray-700 focus:outline-none focus:shadow-outline"
                     to={item.path}
                 >
                     {item.Title}
                 </NavLink>
             ))}
-            
+
             <div
                 className="relative"
                 onMouseLeave={() => setMoreOpen(false)}
