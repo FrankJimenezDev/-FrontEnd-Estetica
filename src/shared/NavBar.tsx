@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { NavItems } from "./NavBarComponents/NavItems";
-import { NavTitle } from "./NavBarComponents/NavTitle";
+import { NavItems } from "../components/NavBarComponents/NavItems";
+import { NavTitle } from "../components/NavBarComponents/NavTitle";
 
 export const Navbar = () => {
     const [open, setOpen] = useState(false);

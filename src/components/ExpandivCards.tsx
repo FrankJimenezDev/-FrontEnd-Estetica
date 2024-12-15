@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import image4 from '../../assets/esteticaTest5.jpg';
-import image2 from '../../assets/esteticaTest2.jpg';
-import image3 from '../../assets/esteticaTest3.jpg';
-import image1 from '../../assets/esteticaTest4.jpg';
+import image4 from '../assets/esteticaTest5.jpg';
+import image2 from '../assets/esteticaTest2.jpg';
+import image3 from '../assets/esteticaTest3.jpg';
+import image1 from '../assets/esteticaTest4.jpg';
 
 export const ExpandivCards = () => {
     const [activeIndex, setActiveIndex] = useState(0);

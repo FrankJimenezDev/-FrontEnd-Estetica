@@ -9,8 +9,8 @@ export const Articles: React.FC<ArticlesI> = ({ articles }) => {
                 articles.map((article, idx) => {
 
                     const articleClassName = (idx % 2 === 0)
-                        ? `flex flex-col md:flex-row items-center md:items-start md:justify-center`
-                        : `flex flex-col md:flex-row-reverse items-center md:items-start md:justify-center`
+                        ? `flex flex-col md:flex-row items-center md:items-start md:justify-around`
+                        : `flex flex-col md:flex-row-reverse items-center md:items-start md:justify-around`
 
                     return (
                         <article key={idx} className={articleClassName}>

@@ -1,5 +1,5 @@
-import { ColumsSection } from "./FooterComponents/ColumsSection";
-import { SocialNetwords } from "./FooterComponents/SocialNetwordsSection";
+import { ColumsSection } from "../components/FooterComponents/ColumsSection";
+import { SocialNetwords } from "../components/FooterComponents/SocialNetwordsSection";
 
 const socialMediasData = {
     title: "Siguenos en todas nuestras redes!!",

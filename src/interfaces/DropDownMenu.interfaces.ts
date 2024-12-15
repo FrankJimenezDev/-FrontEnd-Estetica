@@ -1,9 +1,9 @@
-export interface Item {
+export interface DropMenuItem {
     title : string;
     description: string
 }
 
-export interface ListMenu {
-    items: Array<Item>
+export interface DropMenuListMenu {
+    items: Array<DropMenuItem>
 }
 

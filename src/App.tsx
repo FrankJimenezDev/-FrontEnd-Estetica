@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import { Navbar } from "./components/NavBar"
+import { Navbar } from "./shared/NavBar"
 import { HomePage } from "./Pages/HomePage/HomePage"
 import { AgendaProPage } from "./Pages/AgendaPro/AgendaProPage"
 import { AboutPage } from "./Pages/About/AboutPage"
 import { CatalogoPage } from "./Pages/Catalogo/CatalogoPage"
+import { Footer } from "./shared/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="catalogo" element={<CatalogoPage />} />
         <Route path="about" element={<AboutPage />} />
       </Routes>
+      <Footer />
     </>
   )
 }
