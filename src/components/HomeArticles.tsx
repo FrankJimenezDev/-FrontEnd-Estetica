@@ -24,7 +24,7 @@ const InfoHeaderArticles = {
 
 export const ArticlesComponent = () => {
   return (
-    <section className="bg-white text-gray-900 container mx-auto py-16 px-4 md:px-16">
+    <section className="flex mt-10 flex-col bg-white text-gray-900 container mx-auto py-16 px-4 md:px-16">
       <HeaderArticles
         title={InfoHeaderArticles.title}
         description={InfoHeaderArticles.description} />
