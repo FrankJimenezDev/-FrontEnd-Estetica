@@ -1,5 +1,5 @@
 import { CardsCatalog } from "../../components/HomeCatalogComponents/CardsCatalog"
-import image1 from "../../assets/esteticaTest1.jpg";
+import image1 from "../../assets/image.jpg";
 import { HeaderArticles } from "../../components/ArticleComponents/HeaderArticles";
 
 

@@ -1,4 +1,4 @@
-import image from "../../assets/aboutUsImage.jpg"
+import image from "../../assets/image.jpg"
 
 export const AboutPage = () => {
   return (

@@ -1,8 +1,6 @@
 import { HeaderArticles } from "./ArticleComponents/HeaderArticles"
 import { CardsCatalog } from "./HomeCatalogComponents/CardsCatalog"
-import image1 from "../assets/esteticaTest1.jpg";
-import image2 from "../assets/esteticaTest2.jpg";
-import image3 from "../assets/esteticaTest3.jpg";
+import image1 from "../assets/image.jpg";
 
 const InfoHeaderArticles = {
     title: 'Bible Chat Features',
@@ -17,13 +15,13 @@ const productos = [
         description: 'este es el primer producto'
     },
     {
-        image: image2,
+        image: image1,
         title: 'producto 2',
         price: 100,
         description: 'este es el segundo producto'
     },
     {
-        image: image3,
+        image: image1,
         title: 'producto 3',
         price: 100,
         description: 'este es el tercer producto'

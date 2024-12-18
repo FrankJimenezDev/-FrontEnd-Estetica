@@ -1,27 +1,24 @@
 import { useState } from 'react';
-import image4 from '../assets/esteticaTest5.jpg';
-import image2 from '../assets/esteticaTest2.jpg';
-import image3 from '../assets/esteticaTest3.jpg';
-import image1 from '../assets/esteticaTest4.jpg';
+import expandivCardImage from '../assets/expandivCardImage.jpg';
 
 export const ExpandivCards = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const panels = [
         {
-            backgroundImage: `url(${image1})`,
+            backgroundImage: `url(${expandivCardImage})`,
             text: 'Explore the World',
         },
         {
-            backgroundImage: `url(${image2})`,
+            backgroundImage: `url(${expandivCardImage})`,
             text: 'Explore the World',
         },
         {
-            backgroundImage: `url(${image3})`,
+            backgroundImage: `url(${expandivCardImage})`,
             text: 'Explore the World',
         },
         {
-            backgroundImage: `url(${image4})`,
+            backgroundImage: `url(${expandivCardImage})`,
             text: 'Explore the World',
         },
     ];

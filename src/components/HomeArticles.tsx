@@ -1,5 +1,4 @@
-import image1 from '../assets/esteticaTest1.jpg';
-import image2 from '../assets/esteticaTest2.jpg';
+import image1 from '../assets/image.jpg';
 import { Article } from '../interfaces/Article.interface';
 import { Articles } from './ArticleComponents/Articles';
 import { HeaderArticles } from './ArticleComponents/HeaderArticles';
@@ -13,7 +12,7 @@ const articles: Article[] = [
   {
     title: 'Bible Trivia',
     text: `Challenge yourself with Bible Trivia and sharpen your biblical knowledge through engaging games. Test your memory on biblical events, characters, locations, and teachings. Challenge yourself with Bible Trivia and sharpen your biblical knowledge through engaging games.`,
-    image: image2
+    image: image1
   }
 ];
 
